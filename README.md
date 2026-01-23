@@ -8,7 +8,6 @@
 ## 📋 Table of Contents
 
 - [Introduction](#introduction)
-- [Key Features](#key-features)
 - [Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
 - [Usage](#usage)
@@ -16,12 +15,11 @@
   - [Cross-Dataset Evaluation](#cross-dataset-evaluation)
   - [Testing on Single Images](#testing-on-single-images)
 - [Model Checkpoints](#model-checkpoints)
-- [Project Structure](#project-structure)
-- [Supported Datasets](#supported-datasets)
 - [Superpixel Segmentation Methods](#superpixel-segmentation-methods)
+- [Results](#results)
 - [Citation](#citation)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+- [Contact](#contact)
+- [Updates](#updates)
 
 ## 🎯 Introduction
 
@@ -32,7 +30,7 @@ This repository provides the **official PyTorch implementation** of the paper:
 
 ### Architecture Overview
 
-![Architecture of the proposed network](Figs/architecture.png)
+![Architecture of the proposed network](architecture.png)
 
 *Fig. The framework of the proposed method.*
 
@@ -268,7 +266,7 @@ Y. Wang, Y. Wei, X. Qian, L. Zhu and Y. Yang, "AINet: Association Implantation f
 
 ### Impact Comparison
 
-![Impact of segmentation methods](Figs/segmentation_comparison.png)
+![Impact of segmentation methods](segmentation_comparison.png)
 
 *Fig. Qualitative comparison of different superpixel segmentation methods.*
 
@@ -276,7 +274,7 @@ Y. Wang, Y. Wei, X. Qian, L. Zhu and Y. Yang, "AINet: Association Implantation f
 
 ### Performance on Individual Datasets
 
-![Result on individual datasets](Figs/result.png)
+![Result on individual datasets](result.png)
 
 ## 📖 Citation
 
