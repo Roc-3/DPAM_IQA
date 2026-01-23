@@ -30,7 +30,7 @@ This repository provides the **official PyTorch implementation** of the paper:
 
 ### Architecture Overview
 
-![Architecture of the proposed network](architecture.png)
+![Architecture of the proposed network](Figs/architecture.png)
 
 *Fig. The framework of the proposed method.*
 
@@ -266,7 +266,7 @@ Y. Wang, Y. Wei, X. Qian, L. Zhu and Y. Yang, "AINet: Association Implantation f
 
 ### Impact Comparison
 
-![Impact of segmentation methods](segmentation_comparison.png)
+![Impact of segmentation methods](Figs/segmentation_comparison.png)
 
 *Fig. Qualitative comparison of different superpixel segmentation methods.*
 
@@ -274,7 +274,7 @@ Y. Wang, Y. Wei, X. Qian, L. Zhu and Y. Yang, "AINet: Association Implantation f
 
 ### Performance on Individual Datasets
 
-![Result on individual datasets](result.png)
+![Result on individual datasets](Figs/result.png)
 
 ## 📖 Citation
 
