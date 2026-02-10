@@ -281,7 +281,18 @@ Y. Wang, Y. Wei, X. Qian, L. Zhu and Y. Yang, "AINet: Association Implantation f
 If you find this work useful for your research, please consider citing:
 
 ```bibtex
-@article{
+@article{LIANG2026103357,
+title = {Dual perception-aware blind image quality assessment with semantic-distortion integration and dynamic global–local refinement},
+journal = {Displays},
+volume = {93},
+pages = {103357},
+year = {2026},
+issn = {0141-9382},
+doi = {https://doi.org/10.1016/j.displa.2026.103357},
+url = {https://www.sciencedirect.com/science/article/pii/S014193822600020X},
+author = {Yun Liang and Yuting Xiao and Zihan Zhou and Hongyu Wang and Jiabin Zhang and Jing Li and Yong Xu and Patrick {Le Callet}},
+keywords = {Blind image quality assessment, Superpixel-based semantic representation, Semantic-distortion perception, Dynamic global–local feature extraction, Cross-attention mechanism},
+abstract = {Deep neural networks have shown remarkable progress in blind image quality assessment. However, accurately modeling human visual perception remains challenging due to the wide variations in image content and the complex interplay of distortion types. Existing methods, relying on content-agnostic or fixed receptive field approaches, struggle to capture adaptive perceptual features linking semantic regions and distortion perception. To address these limitations, we propose the dual perception-aware model, a two-stage framework integrating semantic- and distortion-aware representations, and then exploring dynamic global–local feature extraction. First, our method leverages superpixel similarity indicators as semantic-aware representations that capture perceptually coherent regions, enabling subsequent content-adaptive feature extraction beyond traditional grid-based methods. A cross-attention mechanism then facilitates mutual modulation between semantic importance and distortion sensitivity, allowing the model to focus on perceptually critical areas while maintaining distortion awareness. Second, we design an adaptive parallel feature extraction unit combining vision transformer blocks with enhanced adaptive filtering residual blocks, achieving comprehensive global–local feature representation that adapts to image-specific characteristics, followed by a weighted dual-pathway regressor for content-tailored quality predictions. Extensive experiments on benchmark datasets containing both synthetic and authentic distortions demonstrate superior performance compared to state-of-the-art methods, with comprehensive ablation studies validating the effectiveness of each proposed component.}
 }
 ```
 
